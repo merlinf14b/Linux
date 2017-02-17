@@ -80,11 +80,16 @@ tv | default | default | tv | tv*
 ### Queue
 - [x] Check before download
 - [x] Abort jobs that cannot be completed
-Detect Duplicate Downloads - Pause
-Action when encrypted RAR is downloaded - Abort
-Action when unwanted extension detected - Abort
+
+Detect Duplicate Downloads ```Pause```
+
+Action when encrypted RAR is downloaded ```Abort```
+
+Action when unwanted extension detected ```Abort```
+
 Unwanted extensions ```exe, com, bat```
 
 ### Post processing
 - [x] On failure, try alternative NZB
+
 Cleanup extensions ```.nfo, .sfv, .nzb, .srr, .info, .idx, .txt, .db, .md5, .par2, .png, .1, .jpg, .jpeg, .url, .lnk, .html, htm, .ini, .bat, .com, .exe, .scr, .sample```
