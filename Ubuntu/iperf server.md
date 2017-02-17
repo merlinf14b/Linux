@@ -2,17 +2,11 @@
 
 ```bash
 apt-get update && apt-get dist-upgrade
-```
 
-```bash
 apt-get install iperf3
-```
 
-```bash
 adduser iperf --disabled-login
-```
 
-```bash
 nano /etc/systemd/system/iperf3.service
 ```
 
@@ -33,20 +27,12 @@ WantedBy=multi-user.target
 
 ```bash
 systemctl daemon-reload
-```
 
-```bash
 systemctl start iperf3
-```
 
-```bash
 systemctl status iperf3
-```
 
-```bash
 systemctl enable iperf3
-```
 
-```bash
 reboot
 ```
