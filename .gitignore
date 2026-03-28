@@ -1,0 +1,8 @@
+
+.DS_Store
+autoProcess.ini
+
+# Added
+*.log
+.env
+node_modules/
